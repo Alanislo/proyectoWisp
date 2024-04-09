@@ -10,7 +10,8 @@ module.exports = {
       colors:{
         primary:"#000c4f",
         secondary:"#00acef",
-        claro:"#f9fafb"
+        claro:"#cbd5e1",
+        celeste:"#90DBF8"
       }
     },
   },

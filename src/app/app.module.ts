@@ -6,21 +6,22 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { SigninComponent } from './components/auth/signin/signin.component';
+
 
 
 @NgModule({
   declarations:[
+    SigninComponent,
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports:[
         BrowserModule,
-        AppRoutingModule
+        AppRoutingModule,
   ],
-
   providers:[],
-  bootstrap:[AppComponent]
 })
 export class AppModule{}
