@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { SigninComponent } from './components/auth/signin/signin.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 
@@ -17,6 +18,7 @@ import { SigninComponent } from './components/auth/signin/signin.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    ContactComponent
   ],
   imports:[
         BrowserModule,
