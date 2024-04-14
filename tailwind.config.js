@@ -11,7 +11,8 @@ module.exports = {
         primary:"#000c4f",
         secondary:"#00acef",
         claro:"#cbd5e1",
-        celeste:"#90DBF8"
+        celeste:"#90DBF8",
+        naranja:"#F48634"
       }
     },
   },
